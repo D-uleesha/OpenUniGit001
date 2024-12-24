@@ -2,13 +2,13 @@ import os
 import urllib.request
 
 # URL of the file to fetch
-url = "https://raw.githubusercontent.com/anuraam/OpenUniGit001/main/SourceCodeForDashboard.txt"
+url = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/330px-GitHub_Invertocat_Logo.svg.png"
 
 # Folder name to save the fetched file
-folder_name = "fetch"
+folder_name = "image"
 
 # File name to save
-file_name = "SourceCodeForDashboard.txt"
+file_name = "image.png"
 
 # Create the 'fetch' folder if it doesn't exist
 if not os.path.exists(folder_name):
